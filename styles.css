@@ -1,0 +1,175 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: black;
+    height:100%
+} 
+
+.obsah{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popis{
+    width:60%;
+}
+
+.navbar{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul li{
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: lightgray;
+}
+
+.navbar ul li a:visited{
+    color: white;
+}
+
+h1{
+    color:aquamarine;
+    text-align: center;
+}
+
+#uvitani{
+    text-align: center;
+    font-size: large;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+#doporuceni{
+    color:antiquewhite;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+
+#doporuceni li{
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+}
+#doporuceni a{
+    color:white;
+}
+h2{
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+h3{
+    color:antiquewhite;
+}
+
+p{
+    color:antiquewhite;
+}
+
+.spotify-iframe {
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 30%;
+    height: auto;
+    border: none;
+}
+.obrazek{
+    height: 300px;;
+}
+
+.koupit {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .koupit:hover {
+    background-color: aquamarine;
+    color: white;
+  }
+.kontakt{
+    text-align: center;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Popisky */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Textová pole a textarea */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Tlačítko */
+.odeslat {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.odeslat:hover {
+    background-color: #017270;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
